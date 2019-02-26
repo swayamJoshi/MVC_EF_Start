@@ -19,7 +19,8 @@ namespace MVC_EF_Start.Models
     public string type { get; set; }
     public string iexId { get; set; }
     public List<Equity> Equities { get; set; }
-  }
+     public Person Ceo { get; set; }
+    }
 
   public class Equity
   {
