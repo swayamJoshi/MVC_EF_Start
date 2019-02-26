@@ -3,7 +3,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MVC_EF_Start.Models
 {
-  public class Company
+    public class Person
+    {
+        public int id { get; set; }
+        public string firstname { get; set; }
+        public string lastname { get; set; }
+    }
+    public class Company
   {
     [Key]
     public string symbol { get; set; }
